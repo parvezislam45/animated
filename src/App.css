@@ -65,7 +65,7 @@ main {
   transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .active {
-  border-right: 4px solid white;
+  border-bottom: 4px solid rgb(247, 76, 76);
   background: black;
 }
 .link_text {

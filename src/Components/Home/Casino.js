@@ -17,7 +17,7 @@ const Casino = () => {
   }, [slides.length]);
   return (
     <div>
-      <div className="md:px-40 mt-10">
+      <div className=" mt-10">
         <div className="carousel w-full">
           {slides.map((slide, index) => (
             <div
@@ -65,7 +65,7 @@ const Casino = () => {
 
       {/* --------------------------------- Search ----------------------------------- */}
 
-      <form class=" md:px-40 w-full">
+      <form class=" w-full">
         <div class="relative">
           <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
             <svg
@@ -96,7 +96,7 @@ const Casino = () => {
 
       {/* -------------------- Category ------------------------------ */}
 
-      <div className="grid grid-cols-2 md:grid-cols-6 md:px-40 gap-3 mt-6 w-10/12">
+      <div className="grid grid-cols-2 md:grid-cols-6 gap-3 mt-6 w-10/12">
         <button
           type="button"
           class="text-white bg-red-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-3 py-2 w-40 text-center inline-flex items-center me-2 dark:bg-red-600 dark:hover:bg-gray-900 dark:focus:ring-blue-800"
@@ -171,7 +171,7 @@ const Casino = () => {
 
       {/* ---------------------- View All ------------------------ */}
 
-      <div className="flex justify-between items-center md:px-40 mt-5">
+      <div className="flex justify-between items-center mt-5">
         <button
           type="button"
           class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold text-2xl rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -219,7 +219,7 @@ const Casino = () => {
       </div>
 
       {/* --------------------------------- card ----------------------------------- */}
-      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto md:px-40">
+      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto">
         <a href="/">
           <div class="relative group w-44 h-60 overflow-hidden bg-black m-auto mt-10">
             <article class="flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">
@@ -440,7 +440,7 @@ const Casino = () => {
 
       {/* ---------------------- Fortune Games ------------------------ */}
 
-      <div className="flex justify-between items-center md:px-40 mt-5">
+      <div className="flex justify-between items-center mt-5">
         <button
           type="button"
           class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold text-2xl rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -487,7 +487,7 @@ const Casino = () => {
         </button>
       </div>
       {/* --------------------------------- card ----------------------------------- */}
-      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto md:px-40">
+      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto">
         <a href="/">
           <div class="relative group w-44 h-60 overflow-hidden bg-black m-auto mt-10">
             <article class="flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">
@@ -707,7 +707,7 @@ const Casino = () => {
       </div>
       {/* ---------------------- Popular Games ------------------------ */}
 
-      <div className="flex justify-between items-center md:px-40 mt-5">
+      <div className="flex justify-between items-center mt-5">
         <button
           type="button"
           class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold text-2xl rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -754,7 +754,7 @@ const Casino = () => {
         </button>
       </div>
       {/* --------------------------------- card ----------------------------------- */}
-      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto md:px-40">
+      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto">
         <a href="/">
           <div class="relative group w-44 h-60 overflow-hidden bg-black m-auto mt-10">
             <article class="flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">
@@ -974,7 +974,7 @@ const Casino = () => {
       </div>
       {/* ---------------------- Neymer Favorite ------------------------ */}
 
-      <div className="flex justify-between items-center md:px-40 mt-5">
+      <div className="flex justify-between items-center mt-5">
         <button
           type="button"
           class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold text-2xl rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -1021,7 +1021,7 @@ const Casino = () => {
         </button>
       </div>
       {/* --------------------------------- card ----------------------------------- */}
-      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto md:px-40">
+      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto">
         <a href="/">
           <div class="relative group w-44 h-60 overflow-hidden bg-black m-auto mt-10">
             <article class="flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">
@@ -1250,7 +1250,7 @@ const Casino = () => {
       </div>
       {/* ---------------------- New ------------------------ */}
 
-      <div className="flex justify-between items-center md:px-40 mt-5">
+      <div className="flex justify-between items-center mt-5">
         <button
           type="button"
           class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold text-2xl rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -1297,7 +1297,7 @@ const Casino = () => {
         </button>
       </div>
       {/* --------------------------------- card ----------------------------------- */}
-      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto md:px-40">
+      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto">
       <a href="/">
           <div class="relative group w-44 h-60 overflow-hidden bg-black m-auto mt-10">
             <article class="flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">
@@ -1517,7 +1517,7 @@ const Casino = () => {
       </div>
       {/* ---------------------- Game ------------------------ */}
 
-      <div className="flex justify-between items-center md:px-40 mt-5">
+      <div className="flex justify-between items-center mt-5">
         <button
           type="button"
           class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold text-2xl rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -1563,7 +1563,7 @@ const Casino = () => {
           </svg>
         </button>
       </div>
-      <div className="grid grid-cols-3 md:grid-cols-6 gap-3 mx-auto md:px-40 mt-5">
+      <div className="grid grid-cols-3 md:grid-cols-6 gap-3 mx-auto mt-5">
         <a href="/">
           <img
             src="https://i.postimg.cc/nVNGngbz/Screenshot-from-2024-05-20-00-51-12.png"
@@ -1610,7 +1610,7 @@ const Casino = () => {
 
       {/* ---------------------- Live Casino ------------------------ */}
 
-      <div className="flex justify-between items-center md:px-40 mt-5">
+      <div className="flex justify-between items-center mt-5">
         <button
           type="button"
           class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold text-2xl rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -1657,7 +1657,7 @@ const Casino = () => {
         </button>
       </div>
       {/* --------------------------------- card ----------------------------------- */}
-      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto md:px-40">
+      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto">
         <a href="/">
           <div class="relative group w-44 h-60 overflow-hidden bg-black m-auto mt-10">
             <article class="flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">
@@ -1877,7 +1877,7 @@ const Casino = () => {
       </div>
       {/* ---------------------- Browse Theme ------------------------ */}
 
-      <div className="flex justify-between items-center md:px-40 mt-5">
+      <div className="flex justify-between items-center mt-5">
         <button
           type="button"
           class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold text-2xl rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -1923,7 +1923,7 @@ const Casino = () => {
           </svg>
         </button>
       </div>
-      <div className="grid grid-cols-3 md:grid-cols-8 gap-2 mx-auto md:px-40">
+      <div className="grid grid-cols-3 md:grid-cols-8 gap-2 mx-auto">
         <div className="card w-32 h-14 rounded-md bg-blue-600 text-neutral-content">
           <div className="card-body justify-center -mt-4 items-center text-center">
             <h2 className="text-xs font-extrabold text-white">Stickly</h2>
@@ -1967,7 +1967,7 @@ const Casino = () => {
       </div>
       {/* ---------------------- Casual Games ------------------------ */}
 
-      <div className="flex justify-between items-center md:px-40 mt-5">
+      <div className="flex justify-between items-center mt-5">
         <button
           type="button"
           class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold text-2xl rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -2014,7 +2014,7 @@ const Casino = () => {
         </button>
       </div>
       {/* --------------------------------- card ----------------------------------- */}
-      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto md:px-40">
+      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto">
       <a href="/">
           <div class="relative group w-44 h-60 overflow-hidden bg-black m-auto mt-10">
             <article class="flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">
@@ -2234,7 +2234,7 @@ const Casino = () => {
       </div>
       {/* ---------------------- Mega Ways ------------------------ */}
 
-      <div className="flex justify-between items-center md:px-40 mt-5">
+      <div className="flex justify-between items-center mt-5">
         <button
           type="button"
           class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold text-2xl rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -2281,7 +2281,7 @@ const Casino = () => {
         </button>
       </div>
       {/* --------------------------------- card ----------------------------------- */}
-      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto md:px-40">
+      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto">
         <a href="/">
           <div class="relative group w-44 h-60 overflow-hidden bg-black m-auto mt-10">
             <article class="flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">
@@ -2502,7 +2502,7 @@ const Casino = () => {
       </div>
       {/* ---------------------- Bonus Buy ------------------------ */}
 
-      <div className="flex justify-between items-center md:px-40 mt-5">
+      <div className="flex justify-between items-center mt-5">
         <button
           type="button"
           class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold text-2xl rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -2549,7 +2549,7 @@ const Casino = () => {
         </button>
       </div>
       {/* --------------------------------- card ----------------------------------- */}
-      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto md:px-40">
+      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto">
       <a href="/">
           <div class="relative group w-44 h-60 overflow-hidden bg-black m-auto mt-10">
             <article class="flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">
@@ -2769,7 +2769,7 @@ const Casino = () => {
       </div>
       {/* ---------------------- Games Shows ------------------------ */}
 
-      <div className="flex justify-between items-center md:px-40 mt-5">
+      <div className="flex justify-between items-center mt-5">
         <button
           type="button"
           class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold text-2xl rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -2816,7 +2816,7 @@ const Casino = () => {
         </button>
       </div>
       {/* --------------------------------- card ----------------------------------- */}
-      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto md:px-40">
+      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto">
         <a href="/">
           <div class="relative group w-44 h-60 overflow-hidden bg-black m-auto mt-10">
             <article class="flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">
@@ -3042,7 +3042,7 @@ const Casino = () => {
       </div>
       {/* ---------------------- Table Games ------------------------ */}
 
-      <div className="flex justify-between items-center md:px-40 mt-5">
+      <div className="flex justify-between items-center mt-5">
         <button
           type="button"
           class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold text-2xl rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -3089,7 +3089,7 @@ const Casino = () => {
         </button>
       </div>
       {/* --------------------------------- card ----------------------------------- */}
-      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto md:px-40">
+      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto">
         <a href="/">
           <div class="relative group w-44 h-60 overflow-hidden bg-black m-auto mt-10">
             <article class="flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">
@@ -3318,7 +3318,7 @@ const Casino = () => {
       </div>
       {/* ----------------------Scratch Card ------------------------ */}
 
-      <div className="flex justify-between items-center md:px-40 mt-5">
+      <div className="flex justify-between items-center mt-5">
         <button
           type="button"
           class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold text-2xl rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -3365,7 +3365,7 @@ const Casino = () => {
         </button>
       </div>
       {/* --------------------------------- card ----------------------------------- */}
-      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto md:px-40">
+      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto">
       <a href="/">
           <div class="relative group w-44 h-60 overflow-hidden bg-black m-auto mt-10">
             <article class="flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">
@@ -3585,7 +3585,7 @@ const Casino = () => {
       </div>
       {/* ----------------------Drops & Wins ------------------------ */}
 
-      <div className="flex justify-between items-center md:px-40 mt-5">
+      <div className="flex justify-between items-center mt-5">
         <button
           type="button"
           class="text-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-bold text-2xl rounded-lg px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-blue-700 dark:focus:ring-blue-800"
@@ -3632,7 +3632,7 @@ const Casino = () => {
         </button>
       </div>
       {/* --------------------------------- card ----------------------------------- */}
-      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto md:px-40">
+      <div className=" grid grid-cols-2 md:grid-cols-6 gap-3 mx-auto">
         <a href="/">
           <div class="relative group w-44 h-60 overflow-hidden bg-black m-auto mt-10">
             <article class="flex flex-col justify-end overflow-hidden rounded-2xl px-8 pb-8 pt-40">

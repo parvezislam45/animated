@@ -1,33 +1,23 @@
 
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import NavBar from "./Components/NavBar";
-import Login from "./Components/Login";
-import SideBar from "./Components/Sidebar/SideBar";
 import Home from "./Components/Home/Home";
-import Footer1 from "./Components/Footer1";
 import Casino from "./Components/Home/Casino";
 import Sports from "./Components/Home/Sports";
+import Sidenav from "./Components/Home/Sidenav";
 
 function App() {
   
   return (
     <div className="App bg-black">
-      <NavBar />
-    
-        
-      <SideBar>
-        <Routes>
+      <Sidenav>
+      <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/users" element={<Login />} />
           <Route path="/casino" element={<Casino />} />
           <Route path="/sports" element={<Sports />} />
           <Route path="*" element={<> not found</>} />
         </Routes>
-        <Footer1/>
-      </SideBar>
- 
-    
+      </Sidenav>
     </div>
   );
 }

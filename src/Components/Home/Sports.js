@@ -62,8 +62,8 @@ const Sports = () => {
     return cleanupInterval;
   }, [startCountDown]);
   return (
-    <div>
-      <div className="md:px-5 flex justify-start md:justify-between lg:justify-start sm:justify-center flex-wrap">
+    <div className="">
+      <div className=" flex justify-start md:justify-between lg:justify-start sm:justify-center flex-wrap">
         <button
           type="button"
           class="text-white bg-red-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-full text-xs px-3 py-1 w-40 text-center inline-flex items-center me-2 mb-2 lg:mb-0 sm:me-0 dark:bg-gray-900 dark:hover:bg-gray-900 dark:focus:ring-blue-800"
@@ -88,7 +88,7 @@ const Sports = () => {
         </button>
       </div>
 
-      <div className="md:px-5 mt-10">
+      <div className=" mt-10">
         <button
           type="button"
           class="text-white bg-red-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-full text-md px-3 py-1 w-40 text-center inline-flex items-center me-2 dark:bg-gray-950 dark:hover:bg-gray-900 dark:focus:ring-blue-800"
@@ -101,7 +101,7 @@ const Sports = () => {
           Popular
         </button>
       </div>
-      <div className="md:px-5 mt-6 w-9/12">
+      <div className=" mt-6 w-9/12">
         <button
           type="button"
           class="text-white bg-red-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-full text-xs px-3 py-1 w-32 text-center inline-flex items-center me-2 dark:bg-red-600 dark:hover:bg-gray-900 dark:focus:ring-blue-800"
@@ -170,7 +170,7 @@ const Sports = () => {
           Volleyball
         </button>
       </div>
-      <div className="container grid gap-6 mx-auto lg:grid-cols-2 xl:grid-cols-3 mt-10">
+      <div className="grid gap-6 mx-auto lg:grid-cols-2 xl:grid-cols-3 mt-10">
         <div className="w-full h-60 bg-gray-800 rounded-xl">
           <div className="flex justify-between items-center px-3 mt-2">
             <div className="flex gap-2">
@@ -732,7 +732,7 @@ const Sports = () => {
           </div>
         </div>
       </div>
-      <div className="md:px-5 mt-10">
+      <div className=" mt-10">
         <button
           type="button"
           class="text-white bg-red-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-full text-md px-3 py-1 w-40 text-center inline-flex items-center me-2 dark:bg-gray-950 dark:hover:bg-gray-900 dark:focus:ring-blue-800"
@@ -745,7 +745,7 @@ const Sports = () => {
           Live
         </button>
       </div>
-      <div className="md:px-5 mt-6 gap-3">
+      <div className=" mt-6 gap-3">
         <button
           type="button"
           class="text-white bg-red-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-full text-xs px-3 py-1 w-32 text-center inline-flex items-center me-2 dark:bg-red-600 dark:hover:bg-gray-900 dark:focus:ring-blue-800"
@@ -859,111 +859,104 @@ const Sports = () => {
           Counter-Strike
         </button>
       </div>
-      <section className="mt-5 ">
-        <div
-          className="container grid gap-6 mx-auto lg:grid-cols-2 xl:grid-cols-5"
-          bis_skin_checked="1"
-        >
-          <div className="w-full xl:col-span-3">
-            <div className="grid md:grid-cols-2 gap-3">
-              <div className="w-full h-60 bg-gray-800 rounded-xl">
-                <div className="flex justify-between items-center px-3 mt-2">
-                  <div className="flex gap-2">
-                    <img
-                      className="w-4 h-4 rounded-full"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_B9dpdumS92dgliIMJ-F9X11gRatKnbBK0IyJAd1GiQ&s"
-                      alt=""
-                    />
-                    <h1 className="text-xs text-gray-400 font-bold">
-                      Denmark Superliga
-                    </h1>
-                  </div>
-                  <div className="flex gap-2">
-                    <img
-                      className="w-4 h-4"
-                      src="https://icons.veryicon.com/png/128/media/music-player-related-icons/equalizer-26.png"
-                      alt=""
-                    />
-                    <img
-                      className="w-4 h-4"
-                      src="https://cdn.iconscout.com/icon/free/png-256/free-star-30-100158.png?f=webp"
-                      alt=""
-                    />
-                  </div>
-                </div>
-                <div className="flex gap-2 md:px-5 mt-4">
-                  <h1 className="text-xs text-white font-bold">Halftime</h1>
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 mt-10">
+        <div class=" shadow-md shadow-black/5 rounded-md lg:col-span-3">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+            <div className="w-full h-60 bg-gray-800 rounded-xl">
+              <div className="flex justify-between items-center px-3 mt-2">
+                <div className="flex gap-2">
                   <img
-                    className="w-8 h-4"
-                    src="https://i.postimg.cc/G2cCxX09/Screenshot-from-2024-05-26-23-50-16.png"
+                    className="w-4 h-4 rounded-full"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_B9dpdumS92dgliIMJ-F9X11gRatKnbBK0IyJAd1GiQ&s"
+                    alt=""
+                  />
+                  <h1 className="text-xs text-gray-400 font-bold">Laliga
+                  </h1>
+                </div>
+                <div className="flex gap-2">
+                  <img
+                    className="w-4 h-4"
+                    src="https://icons.veryicon.com/png/128/media/music-player-related-icons/equalizer-26.png"
+                    alt=""
+                  />
+                  <img
+                    className="w-4 h-4"
+                    src="https://cdn.iconscout.com/icon/free/png-256/free-star-30-100158.png?f=webp"
                     alt=""
                   />
                 </div>
-                <div className="flex justify-between items-center px-3 mt-2">
-                  <div className="flex gap-3 items-center">
-                    <img
-                      className="w-9 h-9"
-                      src="https://www.stickees.com/files/sports/spanish-football-club/5590-real-madrid-sticker.png"
-                      alt=""
-                    />
-                    <h1 className="text-sm text-white font-bold">
-                      Real Madrid Fc
-                    </h1>
-                  </div>
-                  <button className="w-8 h-6 rounded-lg text-xs font-extrabold border border-sky-500">
-                    2
-                  </button>
+              </div>
+              <div className="flex gap-2 md:px-5 mt-4">
+                <h1 className="text-xs text-white font-bold">Halftime</h1>
+                <img
+                  className="w-8 h-4"
+                  src="https://i.postimg.cc/G2cCxX09/Screenshot-from-2024-05-26-23-50-16.png"
+                  alt=""
+                />
+              </div>
+              <div className="flex justify-between items-center px-3 mt-2">
+                <div className="flex gap-3 items-center">
+                  <img
+                    className="w-9 h-9"
+                    src="https://www.stickees.com/files/sports/spanish-football-club/5590-real-madrid-sticker.png"
+                    alt=""
+                  />
+                  <h1 className="text-sm text-white font-bold">
+                    Real Madrid Fc
+                  </h1>
                 </div>
-                <div className="flex justify-between items-center px-3 mt-2">
-                  <div className="flex gap-3 items-center">
-                    <img
-                      className="w-9 h-9"
-                      src="https://cdn-icons-png.flaticon.com/256/824/824748.png"
-                      alt=""
-                    />
-                    <h1 className="text-sm text-white font-bold">
-                      Fc Barcelona
-                    </h1>
-                  </div>
-                  <button className="w-8 h-6 rounded-lg text-xs font-extrabold border border-sky-500">
-                    2
-                  </button>
+                <button className="w-8 h-6 rounded-lg text-xs font-extrabold border border-sky-500">
+                  2
+                </button>
+              </div>
+              <div className="flex justify-between items-center px-3 mt-2">
+                <div className="flex gap-3 items-center">
+                  <img
+                    className="w-9 h-9"
+                    src="https://cdn-icons-png.flaticon.com/256/824/824748.png"
+                    alt=""
+                  />
+                  <h1 className="text-sm text-white font-bold">Fc Barcelona</h1>
                 </div>
-                <p className="text-sm font-bold text-white px-3 mt-3">1 * 2</p>
-                <div className="flex justify-between items-center px-3 gap-2">
-                  <div className="w-full h-9 bg-gray-700 mt-3 rounded-md">
-                    <div className="flex justify-between items-center px-3 mt-2.5">
-                      <p className="text-xs font-extrabold">1</p>
-                      <p className="text-xs font-extrabold text-white">1.2</p>
-                    </div>
+                <button className="w-8 h-6 rounded-lg text-xs font-extrabold border border-sky-500">
+                  2
+                </button>
+              </div>
+              <p className="text-sm font-bold text-white px-3 mt-3">1 * 2</p>
+              <div className="flex justify-between items-center px-3 gap-2">
+                <div className="w-full h-9 bg-gray-700 mt-3 rounded-md">
+                  <div className="flex justify-between items-center px-3 mt-2.5">
+                    <p className="text-xs font-extrabold">1</p>
+                    <p className="text-xs font-extrabold text-white">1.2</p>
                   </div>
-                  <div className="w-full h-9 bg-gray-700 mt-3 rounded-md">
-                    <div className="flex justify-between items-center px-3 mt-2.5">
-                      <p className="text-xs font-extrabold">draw</p>
-                      <p className="text-xs font-extrabold text-white">7.25</p>
-                    </div>
+                </div>
+                <div className="w-full h-9 bg-gray-700 mt-3 rounded-md">
+                  <div className="flex justify-between items-center px-3 mt-2.5">
+                    <p className="text-xs font-extrabold">draw</p>
+                    <p className="text-xs font-extrabold text-white">7.25</p>
                   </div>
-                  <div className="w-full h-9 bg-gray-700 mt-3 rounded-md">
-                    <div className="flex justify-between items-center px-3 mt-2.5">
-                      <p className="text-xs font-extrabold">2</p>
-                      <p className="text-xs font-extrabold text-white">50.0</p>
-                    </div>
+                </div>
+                <div className="w-full h-9 bg-gray-700 mt-3 rounded-md">
+                  <div className="flex justify-between items-center px-3 mt-2.5">
+                    <p className="text-xs font-extrabold">2</p>
+                    <p className="text-xs font-extrabold text-white">50.0</p>
                   </div>
-                  <div className="w-10 h-9 bg-gray-700 mt-3 rounded-md">
-                    <svg
-                      className="w-5 h-5 mx-2 mt-2"
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 320 512"
-                    >
-                      <path
-                        d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"
-                        fill="white"
-                      ></path>
-                    </svg>
-                  </div>
+                </div>
+                <div className="w-10 h-9 bg-gray-700 mt-3 rounded-md">
+                  <svg
+                    className="w-5 h-5 mx-2 mt-2"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 320 512"
+                  >
+                    <path
+                      d="M137.4 374.6c12.5 12.5 32.8 12.5 45.3 0l128-128c9.2-9.2 11.9-22.9 6.9-34.9s-16.6-19.8-29.6-19.8L32 192c-12.9 0-24.6 7.8-29.6 19.8s-2.2 25.7 6.9 34.9l128 128z"
+                      fill="white"
+                    ></path>
+                  </svg>
                 </div>
               </div>
-              <div className="w-full h-60 bg-gray-800 rounded-xl">
+            </div>
+            <div className="w-full h-60 bg-gray-800 rounded-xl">
                 <div className="flex justify-between items-center px-3 mt-2">
                   <div className="flex gap-2">
                     <img
@@ -972,7 +965,7 @@ const Sports = () => {
                       alt=""
                     />
                     <h1 className="text-xs text-gray-400 font-bold">
-                      Denmark Superliga
+                      Italian Seria
                     </h1>
                   </div>
                   <div className="flex gap-2">
@@ -1057,8 +1050,8 @@ const Sports = () => {
                     </svg>
                   </div>
                 </div>
-              </div>
-              <div className="w-full h-60 bg-gray-800 rounded-xl">
+            </div>
+            <div className="w-full h-60 bg-gray-800 rounded-xl">
                 <div className="flex justify-between items-center px-3 mt-2">
                   <div className="flex gap-2">
                     <img
@@ -1440,10 +1433,13 @@ const Sports = () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div>
-          <div className=" xl:col-span-2 bg-gray-800">
-            <div className="flex justify-center items-center gap-3 mt-6">
+          <div>
+            <canvas id="order-chart"></canvas>
+          </div>
+        </div>
+        <div class="bg-black shadow-md shadow-black/5 lg:col-span-2">
+        <div className="flex justify-center items-center gap-3 mt-6">
               <img
                 className="w-9 me-2"
                 src="https://i.postimg.cc/9Fj4kgR4/Screenshot-from-2024-05-26-21-53-46.png"
@@ -1493,7 +1489,7 @@ const Sports = () => {
                 </div>
               </div>
             </div>
-            <div className="flex justify-between items-center px-8 mt-5">
+            <div className="flex justify-between items-center px-14 mt-5">
               <div className="flex gap-2">
                 <img
                   className="w-4 h-4 rounded-full"
@@ -1520,18 +1516,18 @@ const Sports = () => {
             <div className="flex justify-center gap-5 items-center mt-5">
               <div className="w-48 h-60 bg-gray-700">
                 <img
-                  className="w-36 mx-auto mt-3"
+                  className=" mx-auto mt-3"
                   src="https://1.bp.blogspot.com/-hXIlQNRv0sY/Xm08iowFFYI/AAAAAAABYJ0/g3G4OPsDV5kUVOKJ22qGh5wqChEJKgLawCLcBGAsYHQ/s1600/Real%2BMadrid%2BCF256x.png"
                   alt=""
                 />
-                <h1 className="text-sm text-white text-center font-bold mt-5">
+                <h1 className="text-sm text-white text-center font-bold mt-2">
                   Real Madrid
                 </h1>
                 <h1 className="text-sm text-white text-center font-bold mt-3">
                   7.32
                 </h1>
               </div>
-              <div className="w-20 h-60 bg-gray-700">
+              <div className="w-16 h-60 bg-gray-700">
                 <img
                   className="w-3 h-5 mt-24 mx-auto"
                   src="https://cdn-icons-png.flaticon.com/256/458/458595.png"
@@ -1544,11 +1540,11 @@ const Sports = () => {
 
               <div className="w-48 h-60 bg-gray-700">
                 <img
-                  className="w-36 mx-auto mt-3"
+                  className=" mx-auto mt-3"
                   src="https://assets-sports.thescore.com/soccer/team/114/logo.png"
                   alt=""
                 />
-                <h1 className="text-sm text-white text-center font-bold mt-5">
+                <h1 className="text-sm text-white text-center font-bold mt-2">
                   Borusia Dotmondu
                 </h1>
                 <h1 className="text-sm text-white text-center font-bold mt-3">
@@ -1556,10 +1552,10 @@ const Sports = () => {
                 </h1>
               </div>
             </div>
-            <div className="flex justify-center items-center mt-5">
+            <div className="flex justify-center items-center mt-16">
               <button
                 type="button"
-                class="py-2 px-20 me-2 mb-2 text-sm font-medium text-white bg-black hover:bg-gray-600 hover:text-white"
+                class="py-2 px-16 me-2 mb-2 text-sm font-medium text-white bg-gray-600 hover:bg-gray-600 hover:text-white"
               >
                 15 ₹
               </button>
@@ -1596,10 +1592,10 @@ const Sports = () => {
                 PLACE BID
               </button>
             </div>
-            <div className="flex justify-between items-center px-12 mt-5">
+            <div className="flex justify-between items-center px-12 mt-10">
               <button
                 type="button"
-                class="text-blue-700 bg-gray-700 hover:bg-blue-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800 dark:hover:bg-blue-500"
+                class="text-blue-700 bg-gray-700 hover:bg-blue-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2 text-center inline-flex items-center dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800 dark:hover:bg-blue-500"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -1652,9 +1648,8 @@ const Sports = () => {
                 <span class="sr-only">Icon description</span>
               </button>
             </div>
-          </div>
         </div>
-      </section>
+      </div>
       <div className="text-center mt-5 h-10 w-full bg-gray-800">
         <button
           type="button"
@@ -1675,7 +1670,7 @@ const Sports = () => {
           </svg>
         </button>
       </div>
-      <div className="md:px-5 mt-10">
+      <div className=" mt-10">
         <button
           type="button"
           class="text-white bg-red-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-full text-md px-3 py-1 w-40 text-center inline-flex items-center me-2 dark:bg-gray-950 dark:hover:bg-gray-900 dark:focus:ring-blue-800"
@@ -1688,7 +1683,7 @@ const Sports = () => {
           Upcoming
         </button>
       </div>
-      <div className="md:px-5 mt-6 gap-3">
+      <div className=" mt-6 gap-3">
         <button
           type="button"
           class="text-white bg-red-600 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-full text-xs px-3 py-1 w-32 text-center inline-flex items-center me-2 dark:bg-red-600 dark:hover:bg-gray-900 dark:focus:ring-blue-800"
@@ -1802,14 +1797,10 @@ const Sports = () => {
           Counter-Strike
         </button>
       </div>
-      <section className="mt-5">
-        <div
-          className="container grid gap-6 mx-auto lg:grid-cols-2 xl:grid-cols-5"
-          bis_skin_checked="1"
-        >
-          <div className="w-full xl:col-span-3">
-            <div className="grid md:grid-cols-2 gap-3">
-              <div className="w-full h-60 bg-gray-800 rounded-xl">
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-6 mt-10">
+        <div class=" shadow-md shadow-black/5 rounded-md lg:col-span-3">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+          <div className="w-full h-60 bg-gray-800 rounded-xl">
                 <div className="flex justify-between items-center px-3 mt-2">
                   <div className="flex gap-2">
                     <img
@@ -2347,10 +2338,11 @@ const Sports = () => {
                   </div>
                 </div>
               </div>
-            </div>
           </div>
-          <div className=" xl:col-span-2 bg-gray-800">
-            <div className="flex justify-center items-center gap-3 mt-10">
+        </div>
+        <div class="bg-black shadow-md shadow-black/5 lg:col-span-2">
+        
+        <div className="flex justify-center items-center gap-3 mt-10">
               <img
                 className="w-12 me-2"
                 src="https://i.postimg.cc/vBsFKvgd/Screenshot-from-2024-05-27-14-07-35.png"
@@ -2361,7 +2353,7 @@ const Sports = () => {
               </h1>
             </div>
             <div className="text-center mt-5 h-16 w-11/12 mx-5 bg-gray-900">
-              <div className="flex justify-between items-center w-80 mx-auto ">
+              <div className="flex justify-between items-center w-72 mx-auto ">
                 <img
                   className="w-12 h-12 rounded-full mt-2"
                   src="https://i.postimg.cc/h4ZZzrDP/Screenshot-from-2024-05-27-14-09-07.png"
@@ -2520,9 +2512,8 @@ const Sports = () => {
                 <span class="sr-only">Icon description</span>
               </button>
             </div>
-          </div>
         </div>
-      </section>
+      </div>
       <div>
         <div className="flex justify-center items-center gap-3 mx-auto mt-10">
           <h1 className="font-bold text-gray-500 text-xs">

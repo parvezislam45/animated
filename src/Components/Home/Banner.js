@@ -2,10 +2,14 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="md:px-20">
-      <img className="w-full object-cover" src="https://i.postimg.cc/TwdCNxRH/Screenshot-from-2024-05-15-16-41-45.png" alt="" />
+    <div className="">
+      <img
+        className="w-full object-cover mt-10 mx-auto"
+        src="https://i.postimg.cc/TwdCNxRH/Screenshot-from-2024-05-15-16-41-45.png"
+        alt=""
+      />
       <div className="hero bg-gray-900 mt-10">
-        <div className="hero-content flex-col lg:flex-row gap-10">
+        <div className="hero-content flex-col lg:flex-row gap-10 mx-auto">
           <div className="card card-side rounded-none bg-gray-900">
             <div className="card-body">
               <h2 className="card-title text-xl">Casino</h2>
@@ -19,7 +23,7 @@ const Banner = () => {
             </div>
             <figure>
               <img
-                className="h-72 w-full lg:w-80 object-cover"
+                className="h-60 w-full object-cover"
                 src="https://i.postimg.cc/KjJLbVdn/Screenshot-from-2024-05-14-23-02-38.png"
                 alt="Movie"
               />
@@ -38,7 +42,7 @@ const Banner = () => {
             </div>
             <figure>
               <img
-                className="h-72 w-full lg:w-80 object-cover"
+                className="h-60 w-full object-cover"
                 src="https://i.postimg.cc/TYNBLH34/Screenshot-from-2024-05-14-23-03-23.png"
                 alt="Movie"
               />
@@ -53,62 +57,57 @@ const Banner = () => {
         <div className="flex justify-center gap-5">
           <a href="/">
             <img
-              className="w-40"
+              className="w-40 mx-auto"
               src="https://i.postimg.cc/VLFVQfTM/Screenshot-from-2024-05-15-09-40-47.png"
               alt=""
             />
           </a>
           <a href="/">
             <img
-              className="w-32"
+              className="w-32 mx-auto"
               src="https://i.postimg.cc/MpP3Hszp/Screenshot-from-2024-05-15-09-41-27.png"
               alt=""
             />
           </a>
         </div>
         <div>
-          <button className="btn text-white bg-red-600 w-full lg:w-40 rounded-none">
+          <button className="btn text-white bg-red-600 w-full lg:w-40 rounded-none mx-auto">
             Make Deposit
           </button>
         </div>
       </div>
       <div className="flex flex-col lg:flex-row items-center mt-5 w-full">
         <img
-          className="w-full lg:w-auto rounded-none"
+          className="w-full lg:w-auto rounded-none mx-auto"
           src="https://i.postimg.cc/W3ksXF50/Screenshot-from-2024-05-15-09-56-50.png"
           alt=""
         />
-        <button className="btn btn-sm border-solid border border-gray-400 rounded-none lg:-mx-28">
-          View More
-        </button>
       </div>
       <div className="container grid grid-cols-1 md:grid-cols-3 mx-auto gap-10 mt-10">
         <a href="/">
           <img
-            className="h-60 w-full md:w-96 object-cover"
+            className="h-60 w-full md:w-96 object-cover mx-auto"
             src="https://i.postimg.cc/CLLVw2Gp/Screenshot-from-2024-05-15-10-48-40.png"
             alt=""
           />
         </a>
         <a href="/">
           <img
-            className="h-60 w-full md:w-96 object-cover"
+            className="h-60 w-full md:w-96 object-cover mx-auto"
             src="https://i.postimg.cc/KvYC6MbZ/Screenshot-from-2024-05-15-10-49-27.png"
             alt=""
           />
         </a>
         <a href="/">
           <img
-            className="h-60 w-full md:w-96 object-cover"
+            className="h-60 w-full md:w-96 object-cover mx-auto"
             src="https://i.postimg.cc/gkB1m2c3/Screenshot-from-2024-05-15-10-51-30.png"
             alt=""
           />
         </a>
       </div>
-
-      {/* ------------------------ Table ------------------------------ */}
       <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-10">
-        <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+        <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 mx-auto">
           <caption className="p-5 text-sm font-semibold text-left rtl:text-right text-gray-900 bg-white dark:text-white dark:bg-gray-900">
             CASINO BETS <br />
             <div className="h-1 mt-8 w-full bg-gray-700"></div>

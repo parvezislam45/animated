@@ -49,8 +49,9 @@ const SidebarMenu = ({ route, showAnimation, isOpen, setIsOpen }) => {
   }, [isOpen]);
   return (
     <>
-      <div className="menu bg-black" onClick={toggleMenu}>
-        <div className="menu_item bg-black">
+      <div className="menu" onClick={toggleMenu}>
+        <div className="menu_item">
+          
           <div className="icon">{route.icon}</div>
           <AnimatePresence>
             {isOpen && (
@@ -61,8 +62,9 @@ const SidebarMenu = ({ route, showAnimation, isOpen, setIsOpen }) => {
                 exit="hidden"
                 className="link_container"
               >
-                <div className="link_flex">
+                <div className="link_flex text-gray-400">
         {route.name}
+        
         <motion.div
           animate={
             isMenuOpen
@@ -80,7 +82,6 @@ const SidebarMenu = ({ route, showAnimation, isOpen, setIsOpen }) => {
             )}
           </AnimatePresence>
         </div>
-        
       </div>{" "}
       <AnimatePresence>
         {isMenuOpen && (
@@ -93,9 +94,9 @@ const SidebarMenu = ({ route, showAnimation, isOpen, setIsOpen }) => {
           >
             {route.subRoutes.map((subRoute, i) => (
               <motion.div variants={menuItemAnimation} key={i} custom={i}>
-                <NavLink to={subRoute.path} className="link">
+                <NavLink to={subRoute.path} className="link text-gray-400">
                   <div className="icon">{subRoute.icon}</div>
-                  <motion.div className="link_text">{subRoute.name}</motion.div>
+                  <motion.div className="link_text text-gray-400">{subRoute.name}</motion.div>
                 </NavLink>
               </motion.div>
             ))}

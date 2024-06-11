@@ -1923,7 +1923,7 @@ const Casino = () => {
           </svg>
         </button>
       </div>
-      <div className="grid grid-cols-3 md:grid-cols-8 gap-2 mx-auto">
+      <div className="grid grid-cols-3 md:grid-cols-8 gap-2 mx-3">
         <div className="card w-32 h-14 rounded-md bg-blue-600 text-neutral-content">
           <div className="card-body justify-center -mt-4 items-center text-center">
             <h2 className="text-xs font-extrabold text-white">Stickly</h2>

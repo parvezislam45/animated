@@ -5,11 +5,13 @@ import Home from "./Components/Home/Home";
 import Casino from "./Components/Home/Casino";
 import Sports from "./Components/Home/Sports";
 import Sidenav from "./Components/Home/Sidenav";
+import Dashboard from "./Components/Dashboard";
 
 function App() {
   
   return (
-    <div className="App bg-black">
+    <div className="bg-black">
+      {/* <Dashboard/> */}
       <Sidenav>
       <Routes>
           <Route path="/" element={<Home />} />

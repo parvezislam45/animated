@@ -2,20 +2,19 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="">
+    <div className="flex flex-col items-center justify-center">
       <img
-        className="w-full object-cover mt-10 mx-auto"
+        className="w-full object-cover mt-10"
         src="https://i.postimg.cc/TwdCNxRH/Screenshot-from-2024-05-15-16-41-45.png"
         alt=""
       />
-      <div className="hero bg-gray-900 mt-10">
-        <div className="hero-content flex-col lg:flex-row gap-10 mx-auto">
-          <div className="card card-side rounded-none bg-gray-900">
+      <div className="hero bg-gray-900 mt-10 w-full">
+        <div className="hero-content flex flex-col lg:flex-row gap-10 mx-auto">
+          <div className="card card-side rounded-none bg-gray-900 flex">
             <div className="card-body">
               <h2 className="card-title text-xl">Casino</h2>
               <p className="text-sm">
-                Enjoy our unique selection of slots, live dealers and original
-                games
+                Enjoy our unique selection of slots, live dealers and original games
               </p>
               <button className="btn text-white bg-red-600 w-full lg:w-40 rounded-none">
                 Go To Casino
@@ -29,12 +28,11 @@ const Banner = () => {
               />
             </figure>
           </div>
-          <div className="card card-side rounded-none bg-gray-900">
+          <div className="card card-side rounded-none bg-gray-900 flex">
             <div className="card-body">
               <h2 className="card-title text-xl">Sports</h2>
               <p className="text-sm">
-                Our intuitive sportsbook is made for both new and experienced
-                players.
+                Our intuitive sportsbook is made for both new and experienced players.
               </p>
               <button className="btn text-white bg-red-600 w-full lg:w-40 rounded-none">
                 Go To Sports
@@ -53,7 +51,7 @@ const Banner = () => {
       <h1 className="text-center mt-5 text-sm font-semibold">
         PREFERRED PAYMENT METHOD
       </h1>
-      <div className="flex flex-col lg:flex-row justify-center items-center gap-5 mt-10">
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-5 mt-10 w-full">
         <div className="flex justify-center gap-5">
           <a href="/">
             <img
@@ -106,7 +104,7 @@ const Banner = () => {
           />
         </a>
       </div>
-      <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-10">
+      <div className="relative overflow-x-auto shadow-md sm:rounded-lg mt-10 w-full">
         <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 mx-auto">
           <caption className="p-5 text-sm font-semibold text-left rtl:text-right text-gray-900 bg-white dark:text-white dark:bg-gray-900">
             CASINO BETS <br />

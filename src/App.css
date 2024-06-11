@@ -12,12 +12,10 @@ main {
   place-items: center;
 }
 
-/* Sidebar */
 .sidebar {
-  background-color: #333; /* or your preferred sidebar color */
+
   overflow: hidden;
   z-index: 1000;
-  background: black;
   color: white;
   height: 100vh;
   overflow-y: auto;
@@ -41,6 +39,7 @@ main {
   width: 25px;
   position: fixed;
   margin-top: 25px;
+  z-index: 1000;
 }
 .hide {
   display: none;
@@ -53,9 +52,22 @@ main {
   flex-direction: column;
   gap: 5px;
   position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+}
+.routes::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just in case */
+}
+
+/* For Firefox */
+.routes {
+  scrollbar-width: none; /* Hide scrollbar */
+  -ms-overflow-style: none;  /* IE and Edge */
 }
 .link {
   display: flex;
+  align-items: center;
   color: rgb(184,184,184);
   text-decoration: none;
   gap: 10px;
@@ -64,8 +76,6 @@ main {
   transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .link:hover {
-  color:white;
-  border-right: 4px solid white;
   transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
 }
 .active {
@@ -77,10 +87,11 @@ main {
   font-size: 14px;
   font-weight: bold;
   color: #909090;
+  margin-left: 8px;
 }
 
 .menu {
-  width: 300px;
+  width: 150px;
   display: flex;
   color: white;
   padding: 5px 10px;
@@ -93,13 +104,15 @@ main {
   align-items: center;
   gap: 15px;
 }
+.menu_item .icon {
+  /* Ensure icons are properly aligned and visible */
+  width: 24px;
+  height: 24px;
+}
 .menu_container {
   display: flex;
   flex-direction: column;
-}
-.menu_container .link {
-  padding-left: 20px;
- 
+  overflow: hidden;
 }
 
 
@@ -110,19 +123,46 @@ main {
 }
 .link_flex {
   gap: 30px;
-  justify-items: center;
+  justify-content: space-between;
+  align-items: center;
   font-size: 12px;
   font-weight: bold;
   display: flex;
+}
+
+.route_name {
+  width: 110px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 } 
+
+.routes .link,
+.routes .menu_item {
+  display: flex;
+  align-items: center;
+}
+
+.routes .link img,
+.routes .menu_item .icon {
+  margin-right: 1rem; /* Add some spacing to the right of the icons */
+}
+
+.routes .link_text,
+.routes .route_name {
+  white-space: nowrap; /* Prevent text from wrapping */
+}
 
 @media (max-width: 768px) {
   .sidebar {
-    display: none; /* Completely hide sidebar on small screens */
+    display: none;
   }
-
-  /* Optional: Add styles for a toggle button (hamburger menu) if needed */
 }
+
+.main-content {
+  display: block;
+}
+
   
 
   

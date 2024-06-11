@@ -1438,7 +1438,7 @@ const Sports = () => {
             <canvas id="order-chart"></canvas>
           </div>
         </div>
-        <div class="bg-black shadow-md shadow-black/5 lg:col-span-2">
+        <div class="bg-gray-900 shadow-md shadow-black/5 lg:col-span-2">
         <div className="flex justify-center items-center gap-3 mt-6">
               <img
                 className="w-9 me-2"
@@ -2340,7 +2340,7 @@ const Sports = () => {
               </div>
           </div>
         </div>
-        <div class="bg-black shadow-md shadow-black/5 lg:col-span-2">
+        <div class="bg-gray-900 shadow-md shadow-black/5 lg:col-span-2">
         
         <div className="flex justify-center items-center gap-3 mt-10">
               <img
